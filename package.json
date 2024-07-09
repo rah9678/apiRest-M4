@@ -1,12 +1,17 @@
 {
   "name": "apirest-m4",
   "version": "1.0.0",
-  "description": "Essa é uma api criada utilizano node e express",
+  "description": "Essa é uma api criada utilizando node e express",
   "main": "index.js",
+  "type":"module",
   "scripts": {
+    "dev": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
