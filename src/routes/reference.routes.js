@@ -8,7 +8,7 @@ referenceRouter.get("/", (req,res)=> {
     res.json({result})
 });
 
-referenceRouter.post("/", (req,res)=> {
+referenceRouter.post("/api", (req,res)=> {
     const {id,name,biography, category,photo_url} = req.body;
     createReference(id,name,biography, category,photo_url);
     res.json({message:" sucesso"})

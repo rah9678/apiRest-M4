@@ -1,4 +1,4 @@
-import { Reference } from "../models/reference.model";
+import { Reference } from "../models/reference.model.js";
 
 let referenceList = [];
 export const createReference = (id,name,biography, category,photo_url) => {
