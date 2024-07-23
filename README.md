@@ -60,11 +60,11 @@ Resposta:
 {
   "message": "Sucesso"
 }
-4. Atualizar Referência
-Método: PATCH
-URL: /updatereference
-Descrição: Atualiza uma referência existente.
-Body da Requisição:
+### 4. Atualizar Referência
+- **Método:** PATCH`
+- **URL: ** `/updatereference``
+- **Descrição:** Atualiza uma referência existente.
+- **Body da Requisição:**
 {
   "id": "string",
   "name": "string"
@@ -95,7 +95,7 @@ Resposta:
     "photo_url": "string"
   }
 }
-6. Buscar Referências em Ordem Alfabética
+**6. Buscar Referências em Ordem Alfabética
 Método: GET
 URL: /sorted
 Descrição: Retorna todas as referências ordenadas por nome em ordem alfabética.
