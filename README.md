@@ -28,7 +28,7 @@ URL:**- ** `/search`
 - **Método:** `GET`
 URL:**- ** `/searchByName/:name`
 - **Descrição:** Busca uma referência pelo nome.
-- **Parâmetros da URL:** name (string) – Nome da referência
+- **Parâmetros da URL:** name (string)  Nome da referência
 - **Resposta:**
   ```json
 {
@@ -45,7 +45,7 @@ URL:**- ** `/searchByName/:name`
 URL:**- ** `/createreference`
 - **Descrição:**  Cria uma nova referência.
 - **Body da Requisição:**
-**Resposta:**
+- **Resposta:**
   ```json
 {
   "id": "string",
