@@ -30,7 +30,7 @@ URL:**- ** `/searchByName/:name`
 - **Descrição:** Busca uma referência pelo nome.
 - **Parâmetros da URL:** name (string)  Nome da referência
 - **Resposta:**
-  ```json
+ ```json
 {
   "reference":"result":{
     "id": "string",
@@ -106,8 +106,8 @@ URL:**- ** `/createreference`
 - **Método:** `GET`
 - **URL:** /sorted
 - **Descrição:** Retorna todas as referências ordenadas por nome em ordem alfabética.
-**Resposta:**
-  ```json
+- **Resposta:**
+```json
 {
   "sortedReferences": {
     "id": "string",
