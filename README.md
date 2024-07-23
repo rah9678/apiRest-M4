@@ -31,7 +31,7 @@ URL:**- ** `/searchByName/:name`
 - **Parâmetros da URL:**
 name (string) – Nome da referência
 - **Resposta:**
- ```json
+
 {
   "reference":"result":{
     "id": "string",
@@ -46,7 +46,7 @@ name (string) – Nome da referência
 URL:**- ** `/createreference`
 - **Descrição:**  Cria uma nova referência.
 - **Body da Requisição:**
- ```json
+
 {
   "id": "string",
   "name": "string",
