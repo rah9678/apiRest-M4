@@ -45,6 +45,7 @@ URL:**- ** `/searchByName/:name`
 URL:**- ** `/createreference`
 - **Descrição:**  Cria uma nova referência.
 - **Body da Requisição:**
+**Resposta:**
   ```json
 {
   "id": "string",
@@ -53,7 +54,8 @@ URL:**- ** `/createreference`
   "category": "string",
   "photo_url": "string"
 }
-Resposta:
+**Resposta:**
+```json
 
 {
   "message": "Sucesso"
@@ -77,13 +79,14 @@ Resposta:
     "photo_url": "string"
   }
 }
-5. Deletar Referência
-Método: DELETE
-URL: /deletereference/:id
-Descrição: Deleta uma referência pelo ID.
-Parâmetros da URL:
-id (string) – ID da referência a ser deletada
-Resposta:
+````
+- ### 5. Deletar Referência
+- **Método:** DELETE
+- **URL: ** /deletereference/:id
+- **Descrição:** Deleta uma referência pelo ID.
+**Parâmetros da URL:**id (string) – ID da referência a ser deletada
+- **Resposta:**
+```json
 {
   "reference": {
     "id": "string",
@@ -93,11 +96,14 @@ Resposta:
     "photo_url": "string"
   }
 }
-**6. Buscar Referências em Ordem Alfabética
-Método: GET
-URL: /sorted
-Descrição: Retorna todas as referências ordenadas por nome em ordem alfabética.
-Resposta:
+
+````
+### 6. Buscar Referências em Ordem Alfabética
+- **Método:** `GET`
+- **URL:** /sorted
+- **Descrição:** Retorna todas as referências ordenadas por nome em ordem alfabética.
+**Resposta:**
+  ```json
 {
   "sortedReferences": {
     "id": "string",
