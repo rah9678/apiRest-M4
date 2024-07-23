@@ -9,7 +9,7 @@ Esta API foi desenvolvida para centralizar e disseminar informações sobre figu
 ### 1. Buscar Todas as Referências
 
 - **Método:** `GET`
-- **URL:** `/search`
+URL:**- ** `/search`
 - **Descrição:** Retorna todas as referências cadastradas.
 - **Resposta:**
   ```json
@@ -24,14 +24,14 @@ Esta API foi desenvolvida para centralizar e disseminar informações sobre figu
       }
     ]
   }
-2. Buscar Referência pelo Nome
-Método: GET
-URL: /searchByName/:name
-Descrição: Busca uma referência pelo nome.
-Parâmetros da URL:
+### 2. Buscar Referência pelo Nome
+- **Método:** `GET`
+URL:**- ** `/searchByName/:name`
+- **Descrição:** Busca uma referência pelo nome.
+- **Parâmetros da URL:**
 name (string) – Nome da referência
-Resposta:
- ``json
+- **Resposta:**
+ ```json
 {
   "reference": {
     "id": "string",
@@ -41,12 +41,13 @@ Resposta:
     "photo_url": "string"
   }
 }
-4. Criar Referência
-Método: POST
-URL: /createreference
-Descrição: Cria uma nova referência.
-Body da Requisição:
- ``json
+
+### 4. Criar Referência
+- **Método:** `POST`
+URL:**- ** `/createreference`
+- **Descrição:**  Cria uma nova referência.
+- **Body da Requisição:**
+ ```json
 {
   "id": "string",
   "name": "string",
