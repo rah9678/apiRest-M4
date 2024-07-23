@@ -33,7 +33,7 @@ name (string) – Nome da referência
 - **Resposta:**
  ```json
 {
-  "reference": {
+  "reference":"result":{
     "id": "string",
     "name": "string",
     "biography": "string",
@@ -41,7 +41,6 @@ name (string) – Nome da referência
     "photo_url": "string"
   }
 }
-
 ### 4. Criar Referência
 - **Método:** `POST`
 URL:**- ** `/createreference`
