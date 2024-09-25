@@ -58,10 +58,15 @@ referenceRouter.patch("/updatereference", (req,res) => {
     res.status(200).json({referenceUpdate});
 })
 
-referenceRouter.delete("deletereference", (req,res) => {
+referenceRouter.delete("/deletereference/:id", (req,res) => {
     const { id } = req.params; 
     const reference = deleteReference(id);
     res.status(200).json({reference});
+    if (reference) {
+        res.status(200).json({ message: "Referência deletada com sucesso", reference });
+    } else {
+        res.status(404).json({ message: "Referência não encontrada" });
+    }
 })
 
 export { referenceRouter }
